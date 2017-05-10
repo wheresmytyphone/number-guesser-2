@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "open sans";
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  background-color: #404041;
+  color: #E6E7E8;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 4em;
+}
+
+p {
+  font-size: 29px;
+  font-weight: 300;
+}
+
+span {
+  font-weight: 700;
+  color: #ED458B;
+}
+
+.num-guess {
+  border: 2px solid #E6E7E8;
+  width: 500px;
+  height: 50px;
+  text-align: center;
+  outline: none;
+  margin: 30px 0px 5px;
+  font-size: 28px;
+  color: #404041;
+
+}
+
+.button {
+  background-color: #D0D2D3;
+  border-width: 0px;
+  border-radius: 28px;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  padding: 5px 76px;
+  margin-top: 10px;
+  font-weight: 300;
+  width: 230px;
+}
+
+.button:hover {
+  background-color: #EB008B;
+}
+
+.guess {
+  height: 200px;
+}
+
+.guess-disp {
+  font-size: 200px;
+  font-weight: 300;
+  color: #ED458B;
+  text-align: center;
+  line-height: 70%;
+  z-index: -1;
+}
+
+.go {
+    margin-top: 20px;
+    height: 33px;
+}
+
+.reset {
+  width: 500px;
+  padding: 0px;
+  margin-top: 20px;
+  height: 50px;
+}
+
+.submit {
+  margin-right: 50px;
+}
